@@ -13,7 +13,7 @@ const like = require('./controllers/like');
 const db = knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-clean-13835',
     user : 'ivank',
     password : 'sivec1064',
     database : 'smartbrain'
